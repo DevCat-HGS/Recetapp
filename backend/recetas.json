@@ -1,0 +1,276 @@
+[
+    {
+      "titulo": "Ensalada César",
+      "descripcion": "Una deliciosa ensalada con lechuga, crutones y aderezo César.",
+      "imagen": "https://cdn.kiwilimon.com/brightcove/6506/6506.jpg",
+      "pasos": [
+        "Lavar y cortar la lechuga.",
+        "Tostar los crutones.",
+        "Preparar el aderezo César.",
+        "Mezclar los ingredientes y servir."
+      ]
+    },
+    {
+      "titulo": "Sopa de Tomate",
+      "descripcion": "Sopa caliente con un toque de albahaca fresca.",
+      "imagen": "https://t1.uc.ltmcdn.com/es/posts/3/0/9/como_hacer_sopa_de_tomate_casera_25903_orig.jpg",
+      "pasos": [
+        "Cortar los tomates y cebolla.",
+        "Freír los tomates y cebolla.",
+        "Añadir agua y dejar cocinar.",
+        "Licuar todo hasta obtener una crema."
+      ]
+    },
+    {
+      "titulo": "Pasta Carbonara",
+      "descripcion": "Un plato clásico italiano con tocino y queso parmesano.",
+      "imagen": "https://www.recetasnestlecam.com/sites/default/files/srh_recipes/a0b5590b8c0f150f5069e2f65b3e4d27.jpg",
+      "pasos": [
+        "Cocer la pasta al dente.",
+        "Freír el tocino.",
+        "Mezclar la pasta con el tocino y queso parmesano.",
+        "Servir caliente."
+      ]
+    },
+    {
+      "titulo": "Pizza Margarita",
+      "descripcion": "Pizza con tomate fresco, albahaca y queso mozzarella.",
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjyd9UuQppnevUR-c5UFeuEK8sk7F8B1fHIA&s",
+      "pasos": [
+        "Precalentar el horno a 220°C.",
+        "Extender la masa de pizza.",
+        "Añadir salsa de tomate, mozzarella y albahaca.",
+        "Hornear durante 15-20 minutos."
+      ]
+    },
+    {
+      "titulo": "Tacos al Pastor",
+      "descripcion": "Tacos con carne marinada, piña y cilantro.",
+      "imagen": "https://img.freepik.com/fotos-premium/tacos-al-pastor-pina-cilantro-que-son-vibrantes-sabrosos-ia-generativa_909576-535.jpg",
+      "pasos": [
+        "Marinar la carne con especias y achiote.",
+        "Asar la carne en un trompo o sartén.",
+        "Cortar la piña y cilantro.",
+        "Servir en tortillas con carne, piña y cilantro."
+      ]
+    },
+    {
+      "titulo": "Hamburguesa Clásica",
+      "descripcion": "Carne jugosa con queso, lechuga y tomate.",
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSO95aJa5PRIby3mMAGH_XWMprvbpAfofdEbQ&s",
+      "pasos": [
+        "Formar las hamburguesas con carne molida.",
+        "Cocinar las hamburguesas en una parrilla.",
+        "Añadir queso encima y dejar que se derrita.",
+        "Servir con lechuga, tomate y pan."
+      ]
+    },
+    {
+      "titulo": "Paella Valenciana",
+      "descripcion": "Un plato tradicional español con mariscos y verduras.",
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjaXenYM1YFXpuNJYn75XwkhMBDHuRe4wbHmKdRhEN7vHJWmV_Lg&s",
+      "pasos": [
+        "Sofreír cebolla, ajo y pimientos.",
+        "Añadir arroz y caldo de pescado.",
+        "Cocinar a fuego lento y añadir mariscos.",
+        "Dejar reposar antes de servir."
+      ]
+    },
+    {
+      "titulo": "Sushi de Salmón",
+      "descripcion": "Rollo de sushi con salmón fresco y aguacate.",
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6zNwVugrFXsq9fdaNQaNsceBI5wmMwt0sYQ&s",
+      "pasos": [
+        "Cocer el arroz para sushi y dejar enfriar.",
+        "Colocar el alga nori sobre la esterilla.",
+        "Añadir arroz, salmón y aguacate.",
+        "Enrollar el sushi y cortar en piezas."
+      ]
+    },
+    {
+      "titulo": "Crepes Suzette",
+      "descripcion": "Deliciosos crepes con salsa de naranja y licor.",
+      "imagen": "https://imag.bonviveur.com/poniendo-salsa-en-las-crepes-suzette.jpg",
+      "pasos": [
+        "Preparar la mezcla de crepes.",
+        "Cocinar las crepes en una sartén.",
+        "Preparar la salsa de naranja con mantequilla y licor.",
+        "Servir las crepes con la salsa."
+      ]
+    },
+    {
+      "titulo": "Chili con Carne",
+      "descripcion": "Un guiso picante de carne con frijoles y especias.",
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRm6Qq1IG0DO6cpwakTxE-XBip_HVbnJ4ViRg&s",
+      "pasos": [
+        "Dorar la carne molida en una sartén.",
+        "Añadir cebolla, pimientos y especias.",
+        "Incorporar los frijoles y tomates.",
+        "Cocinar a fuego lento hasta espesar."
+      ]
+    },
+    {
+      "titulo": "Lasagna Bolognese",
+      "descripcion": "Capas de pasta con salsa boloñesa y queso ricotta.",
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTM9ralD1vO3vULyo3oQzKINyFzf3FgsFnDpg&s",
+      "pasos": [
+        "Preparar la salsa boloñesa.",
+        "Cocer las láminas de lasagna.",
+        "Montar las capas de pasta, salsa y queso.",
+        "Hornear durante 40 minutos a 180°C."
+      ]
+    },
+    {
+      "titulo": "Tiramisu",
+      "descripcion": "Postre italiano con capas de bizcocho empapado en café y mascarpone.",
+      "imagen": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2023/03/27/tiramisu.jpeg",
+      "pasos": [
+        "Preparar café fuerte y dejar enfriar.",
+        "Mezclar mascarpone con azúcar.",
+        "Remojar bizcochos en el café.",
+        "Montar capas de bizcocho y mascarpone.",
+        "Refrigerar por al menos 4 horas."
+      ]
+    },
+    {
+      "titulo": "Enchiladas",
+      "descripcion": "Tortillas rellenas de carne y cubiertas con salsa de chile.",
+      "imagen": "https://media-cdn.tripadvisor.com/media/photo-s/1a/dd/0c/5f/enchiladas-de-chipotle.jpg",
+      "pasos": [
+        "Freír las tortillas ligeramente.",
+        "Rellenar las tortillas con carne.",
+        "Cubrir con salsa de chile.",
+        "Hornear por 20 minutos a 180°C."
+      ]
+    },
+    {
+      "titulo": "Ratatouille",
+      "descripcion": "Un guiso de verduras a la provenzal.",
+      "imagen": "https://imag.bonviveur.com/ratatouille-recien-horneada.jpg",
+      "pasos": [
+        "Cortar las verduras en rodajas finas.",
+        "Sofreír cebolla y ajo.",
+        "Montar capas de verduras en una fuente.",
+        "Hornear por 40 minutos a 180°C."
+      ]
+    },
+    {
+      "titulo": "Goulash",
+      "descripcion": "Un estofado húngaro con carne y pimientos.",
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB3mFgaN8b8_f6OwgA7UpT1hMbbahOylhwaQ&s",
+      "pasos": [
+        "Dorar la carne en una sartén.",
+        "Añadir cebolla, pimientos y ajo.",
+        "Cocinar con caldo y especias a fuego lento.",
+        "Servir con papas o pan."
+      ]
+    },
+    {
+      "titulo": "Pancakes",
+      "descripcion": "Panqueques esponjosos servidos con jarabe de arce.",
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQLuRL2SO_VoHSvqE41mrsndRl3Tc06QpkUA&s",
+      "pasos": [
+        "Mezclar harina, leche y huevos.",
+        "Cocinar los pancakes en una sartén.",
+        "Servir con mantequilla y jarabe de arce."
+      ]
+    },
+    {
+      "titulo": "Falafel",
+      "descripcion": "Bocadillos fritos de garbanzos servidos con salsa de yogur.",
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtF5PPdBoSSlsPYkyk3dXtwfeGA1bkizrzXA&s",
+      "pasos": [
+        "Triturar los garbanzos cocidos con especias.",
+        "Formar bolitas y freír en aceite caliente.",
+        "Servir con salsa de yogur y ensalada."
+      ]
+    },
+    {
+      "titulo": "Moussaka",
+      "descripcion": "Una cazuela griega con capas de berenjena, carne y bechamel.",
+      "imagen": "https://www.recipetineats.com/tachyon/2019/03/Greek-Moussaka_3-re-edited-SQ.jpg?resize=500%2C375",
+      "pasos": [
+        "Cortar y asar las berenjenas.",
+        "Preparar la salsa de carne y bechamel.",
+        "Montar capas de berenjena, carne y bechamel.",
+        "Hornear por 45 minutos a 180°C."
+      ]
+    },
+    {
+      "titulo": "Risotto",
+      "descripcion": "Arroz cremoso con champiñones y parmesano.",
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiQnSVQQBPq9XyTEADDysXrn8OanoInFZIwA&s",
+      "pasos": [
+        "Sofreír cebolla y ajo.",
+        "Añadir arroz y caldo poco a poco.",
+        "Incorporar champiñones y parmesano.",
+        "Cocinar hasta que el arroz esté cremoso."
+      ]
+    },
+    {
+      "titulo": "Ceviche",
+      "descripcion": "Pescado marinado en limón con cebolla y cilantro.",
+      "imagen": "https://content-cocina.lecturas.com/medio/2024/05/17/ceviche-de-corvina-a-la-peruana_00000000_240618165234_1280x720.jpg",
+      "pasos": [
+        "Cortar el pescado en cubos pequeños.",
+        "Marinar en jugo de limón durante 15 minutos.",
+        "Añadir cebolla, cilantro y chile.",
+        "Servir frío con aguacate o tostadas."
+      ]
+    },
+    {
+      "titulo": "Burritos",
+      "descripcion": "Tortillas rellenas de carne, frijoles y queso.",
+      "imagen": "https://cdn0.recetasgratis.net/es/posts/2/4/8/burritos_de_carne_y_queso_71842_orig.jpg",
+      "pasos": [
+        "Cocinar la carne molida con especias.",
+        "Rellenar las tortillas con carne y frijoles.",
+        "Añadir queso y enrollar los burritos.",
+        "Servir con guacamole o salsa."
+      ]
+    },
+    {
+      "titulo": "Sopa de Lentejas",
+      "descripcion": "Guiso de lentejas con verduras y especias.",
+      "imagen": "https://www.paulinacocina.net/wp-content/uploads/2023/04/lentejas-con-verduras.jpg",
+      "pasos": [
+        "Cocer las lentejas con agua y sal.",
+        "Añadir cebolla, zanahoria y pimientos.",
+        "Cocinar a fuego lento durante 45 minutos.",
+        "Servir caliente."
+      ]
+    },
+    {
+      "titulo": "Tarta de Manzana",
+      "descripcion": "Deliciosa tarta con manzanas caramelizadas y masa crujiente.",
+      "imagen": "https://content-cocina.lecturas.com/medio/2018/07/19/paso-a-paso-para-realizar-tarta-tatin-tarta-con-manzanas-caramelizadas-resultado-final_318e38fc_600x600.jpg",
+      "pasos": [
+        "Preparar la masa para la tarta.",
+        "Caramelizar las manzanas en una sartén.",
+        "Montar la tarta con las manzanas caramelizadas.",
+        "Hornear por 30 minutos a 180°C."
+      ]
+    },
+    {
+      "titulo": "Quiche Lorraine",
+      "descripcion": "Tarta salada con tocino y queso.",
+      "imagen": "https://okdiario.com/img/recetas/2017/05/03/quiche-lorraine-sin-gluten.jpg",
+      "pasos": [
+        "Preparar la masa de quiche.",
+        "Freír el tocino en una sartén.",
+        "Mezclar huevos, queso y tocino.",
+        "Hornear durante 30 minutos a 180°C."
+      ]
+    },
+    {
+      "titulo": "Arroz con Pollo",
+      "descripcion": "Un clásico plato de arroz con pollo y verduras.",
+      "imagen": "https://www.elsabor.com.ec/wp-content/uploads/2022/02/arroz-pollo.jpg",
+      "pasos": [
+        "Sofreír cebolla, ajo y pimientos.",
+        "Añadir el pollo y dorar.",
+        "Agregar arroz y caldo de pollo.",
+        "Cocinar a fuego lento hasta que el arroz esté listo."
+      ]
+    }
+  ]
