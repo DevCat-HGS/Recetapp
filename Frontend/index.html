@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cocina Creativa</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+    <nav>
+        <div class="menu">
+            <div class="logo">
+                <img src="img/2.jpg" alt="Cocina Creativa Logo" class="logo-img">
+                <a href="">COCINA CREATIVA</a>
+            </div>
+            <ul class="menu-items">
+                <li><a href="pages/inicio.html">Inicio</a></li>
+                <li><a href="pages/Sobre Nosotros.html">Sobre Nosotros</a></li>
+                <li><a href="pages/Contacto.html">Contacto</a></li>
+                <li><a href="pages/recetas.html">Recetas</a></li>
+                <li><a href="pages/blog.html">Blog</a></li>
+                
+                <!-- Botones de autenticación -->
+                <div class="auth-buttons">
+                    <li><a href="pages/login.html" class="login-btn">Iniciar Sesión</a></li>
+                    <li><a href="pages/registro.html" class="register-btn">Registrarse</a></li>
+                </div>
+
+                <!-- Menú de usuario (inicialmente oculto) -->
+                <div class="user-menu" style="display: none;">
+                    <li class="user-dropdown">
+                        <a href="#" class="user-name"></a>
+                        <div class="dropdown-content">
+                            <a href="pages/perfil.html">Mi Perfil</a>
+                            <a href="pages/mis-recetas.html">Mis Recetas</a>
+                            <a href="#" onclick="authService.logout(); return false;">Cerrar Sesión</a>
+                        </div>
+                    </li>
+                </div>
+            </ul>
+        </div>
+    </nav>
+
+    <video autoplay loop muted id="background-video">
+        <source src="video/Video de Producto Gastronómico (1).mp4" type="video/mp4">
+        Tu navegador no soporta el elemento de video.
+    </video>
+
+    <div class="img"></div>
+    <div class="slider">
+        <div class="slide">
+            <div class="title">🍽️ ¡Bienvenido a Tu Nuevo Paraíso Culinario! 🍴</div>
+            <div class="description">
+                <p>¿Te apasiona la cocina y siempre estás buscando nuevas recetas deliciosas? ¡Entonces estás en el lugar perfecto!</p>
+                <p>Descubre un mundo de sabores y experiencias culinarias únicas.</p>
+                <button class="btn" onclick="window.location.href='pages/registro.html'">Únete a nosotros</button>
+            </div>
+        </div>
+
+        <div class="slide">
+            <div class="description">
+                <p>Únete a nuestra comunidad y recibe recetas exclusivas, tips de cocina infalibles y trucos secretos directamente en tu bandeja de entrada.</p>
+                <p>🔔 <strong>Suscríbete ahora y obtén acceso a:</strong></p>
+                <p>Más de 1000 recetas verificadas por nuestros chefs expertos</p>
+            </div>
+        </div>
+
+        <div class="slide">
+            <div class="description">
+                <ul>
+                    <li>Recetas fáciles y rápidas para cada ocasión.</li>
+                    <li>Consejos de chefs expertos que transformarán tus platos.</li>
+                    <li>Ofertas y promociones especiales en utensilios de cocina.</li>
+                    <li>Acceso anticipado a nuestras guías y tutoriales exclusivos.</li>
+                    <li>Videos paso a paso de técnicas culinarias avanzadas.</li>
+                    <li>Menús semanales personalizados.</li>
+                    <li>Guías de maridaje de vinos.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="slide">
+            <div class="description">
+                <p>¡No te pierdas la oportunidad de convertirte en el chef que siempre soñaste ser! ✨</p>
+                <p>👉 <strong>Suscríbete hoy y empieza a crear magia en tu cocina. ¡Hacemos que cada comida sea una celebración!</strong></p>
+                <p>🌟 ¡Los primeros 100 suscriptores recibirán un e-book de recetas exclusivo!</p>
+            </div>
+        </div>
+
+        <div class="slide">
+            <div class="description">
+                <h3>¿Por qué elegirnos?</h3>
+                <ul>
+                    <li>✅ Contenido actualizado semanalmente</li>
+                    <li>✅ Soporte personalizado de nuestros chefs</li>
+                    <li>✅ Comunidad activa de amantes de la cocina</li>
+                    <li>✅ Recetas para todas las dietas y necesidades</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <section class="featured-recipes">
+        <h2>Recetas Destacadas</h2>
+        <div class="recipe-grid">
+            
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Sobre Nosotros</h4>
+                <p>Cocina Creativa es tu destino culinario para descubrir, aprender y compartir el arte de la cocina.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Enlaces Rápidos</h4>
+                <ul>
+                    <li><a href="pages/recetas.html">Recetas</a></li>
+                    <li><a href="pages/blog.html">Blog</a></li>
+                    <li><a href="pages/Contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Síguenos</h4>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 COCINA CREATIVA. Todos los derechos reservados.</p>
+            <div class="footer-links">
+                <a href="pages/privacidad.html">Política de Privacidad</a>
+                <a href="pages/terminos.html">Términos y Condiciones</a>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="js/auth/authService.js"></script>
+<script src="js/slider.js"></script>
+<script src="js/recipes.js"></script>
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nueva Receta - Cocina Creativa</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/nueva-receta.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+</head>
+<body>
+    <nav>
+        <div class="menu">
+            <div class="logo">
+                <img src="../img/2.jpg" alt="Cocina Creativa Logo" class="logo-img">
+                <a href="../index.html">COCINA CREATIVA</a>
+            </div>
+            <ul class="menu-items">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="recetas.html">Recetas</a></li>
+                <li><a href="mis-recetas.html">Mis Recetas</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="new-recipe-container">
+        <div class="page-header">
+            <h1><i class="fas fa-plus-circle"></i> Nueva Receta</h1>
+            <p>Comparte tu creación culinaria con la comunidad</p>
+        </div>
+
+        <form id="nueva-receta-form" class="recipe-form">
+            <div class="form-section">
+                <h2>Información Básica</h2>
+                <div class="form-group">
+                    <label for="nombre">Nombre de la Receta</label>
+                    <input type="text" id="nombre" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="descripcion">Descripción</label>
+                    <textarea id="descripcion" required></textarea>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="categoria">Categoría</label>
+                        <select id="categoria" required>
+                            <option value="">Selecciona una categoría</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="dificultad">Dificultad</label>
+                        <select id="dificultad" required>
+                            <option value="Fácil">Fácil</option>
+                            <option value="Intermedia">Intermedia</option>
+                            <option value="Difícil">Difícil</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="tiempo">Tiempo de Preparación (minutos)</label>
+                        <input type="number" id="tiempo" min="1" required>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-section">
+                <h2>Ingredientes</h2>
+                <div id="ingredientes-container">
+                    <div class="ingrediente-item">
+                        <input type="text" placeholder="Ingrediente" class="ingrediente-nombre">
+                        <input type="text" placeholder="Cantidad" class="ingrediente-cantidad">
+                        <button type="button" class="remove-ingrediente">
+                            <i class="fas fa-times"></i>
+                        </button>
+                    </div>
+                </div>
+                <button type="button" id="add-ingrediente" class="secondary-btn">
+                    <i class="fas fa-plus"></i> Añadir Ingrediente
+                </button>
+            </div>
+
+            <div class="form-section">
+                <h2>Pasos de Preparación</h2>
+                <div id="pasos-container">
+                    <div class="paso-item">
+                        <span class="paso-numero">1</span>
+                        <textarea placeholder="Describe este paso" class="paso-descripcion"></textarea>
+                        <button type="button" class="remove-paso">
+                            <i class="fas fa-times"></i>
+                        </button>
+                    </div>
+                </div>
+                <button type="button" id="add-paso" class="secondary-btn">
+                    <i class="fas fa-plus"></i> Añadir Paso
+                </button>
+            </div>
+
+            <div class="form-section">
+                <h2>Imagen de la Receta</h2>
+                <div class="form-group">
+                    <label for="imagen">URL de la imagen</label>
+                    <input type="url" id="imagen" placeholder="https://ejemplo.com/imagen.jpg">
+                </div>
+            </div>
+
+            <div class="form-actions">
+                <button type="button" class="cancel-btn" onclick="window.location.href='mis-recetas.html'">
+                    <i class="fas fa-times"></i> Cancelar
+                </button>
+                <button type="submit" class="submit-btn">
+                    <i class="fas fa-save"></i> Guardar Receta
+                </button>
+            </div>
+        </form>
+    </main>
+
+    <script src="../js/auth/authService.js"></script>
+    <script src="../js/nueva-receta.js"></script>
+</body>
+</html> 

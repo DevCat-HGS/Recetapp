@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recetas - Cocina Creativa</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/recetas.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+</head>
+<body>
+    <nav>
+        <div class="menu">
+            <div class="logo">
+                <img src="../img/2.jpg" alt="Cocina Creativa Logo" class="logo-img">
+                <a href="../index.html">COCINA CREATIVA</a>
+            </div>
+            <ul class="menu-items">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="Sobre Nosotros.html">Sobre Nosotros</a></li>
+                <li><a href="Contacto.html">Contacto</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+            <!-- Botones de autenticación -->
+        <div class="auth-buttons">
+            <li><a href="login.html" class="login-btn">Iniciar Sesión</a></li>
+            <li><a href="registro.html" class="register-btn">Registrarse</a></li>
+        </div>
+
+        <!-- Menú de usuario (inicialmente oculto) -->
+        <div class="user-menu" style="display: none;">
+            <li class="user-dropdown">
+                <a href="#" class="user-name"></a>
+                <div class="dropdown-content">
+                    <a href="pages/perfil.html">Mi Perfil</a>
+                    <a href="pages/mis-recetas.html">Mis Recetas</a>
+                    <a href="#" onclick="authService.logout(); return false;">Cerrar Sesión</a>
+                </div>
+            </li>
+        </div>
+        </div>
+        
+    </nav>
+
+    <main class="recipes-page">
+        <div class="page-header">
+            <h1>Explora Nuestras Recetas</h1>
+            <p>Descubre una amplia variedad de deliciosas recetas para todos los gustos</p>
+        </div>
+
+        <section class="filter-section">
+            <div class="filter-container">
+                <h2><i class="fas fa-filter"></i> Filtrar Recetas</h2>
+                <form id="filter-form">
+                    <div class="filter-group">
+                        <label for="category-filter">Categoría:</label>
+                        <select id="category-filter">
+                            <option value="">Todas las Categorías</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label for="difficulty-filter">Dificultad:</label>
+                        <select id="difficulty-filter">
+                            <option value="">Todas las Dificultades</option>
+                            <option value="Fácil">Fácil</option>
+                            <option value="Intermedia">Intermedia</option>
+                            <option value="Difícil">Difícil</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn filter-btn">
+                        <i class="fas fa-search"></i> Filtrar
+                    </button>
+                </form>
+            </div>
+        </section>
+
+        <section class="recipes-section">
+            <div class="recipe-grid">
+                <!-- Las recetas se llenarán dinámicamente -->
+            </div>
+        </section>
+
+        <section class="upload-recipe-section" id="upload-recipe-section">
+            <h2><i class="fas fa-plus-circle"></i> Subir Nueva Receta</h2>
+            <form id="upload-recipe-form">
+                <div class="form-group">
+                    <input type="text" id="recipe-name" placeholder="Nombre de la receta" required>
+                </div>
+                <div class="form-group">
+                    <textarea id="recipe-description" placeholder="Descripción" required></textarea>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <input type="number" id="recipe-time" placeholder="Tiempo de preparación (min)" required>
+                    </div>
+                    <div class="form-group">
+                        <select id="recipe-category" required>
+                            <option value="">Selecciona una Categoría</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <select id="recipe-difficulty" required>
+                            <option value="Fácil">Fácil</option>
+                            <option value="Intermedia">Intermedia</option>
+                            <option value="Difícil">Difícil</option>
+                        </select>
+                    </div>
+                </div>
+                <button type="submit" class="btn submit-btn">
+                    <i class="fas fa-upload"></i> Subir Receta
+                </button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Sobre Nosotros</h4>
+                <p>Cocina Creativa es tu destino culinario para descubrir, aprender y compartir el arte de la cocina.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Enlaces Rápidos</h4>
+                <ul>
+                    <li><a href="pages/recetas.html">Recetas</a></li>
+                    <li><a href="pages/blog.html">Blog</a></li>
+                    <li><a href="pages/Contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Síguenos</h4>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 COCINA CREATIVA. Todos los derechos reservados.</p>
+            <div class="footer-links">
+                <a href="privacidad.html">Política de Privacidad</a>
+                <a href="terminos.html">Términos y Condiciones</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/auth/authService.js"></script>
+    <script src="../js/recipes.js"></script>
+    <script src="../js/recetas.js"></script>
+</body>
+</html> 

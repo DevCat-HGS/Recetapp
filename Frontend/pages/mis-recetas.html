@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis Recetas - Cocina Creativa</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/mis-recetas.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+</head>
+<body>
+    <nav>
+        <div class="menu">
+            <div class="logo">
+                <img src="../img/2.jpg" alt="Cocina Creativa Logo" class="logo-img">
+                <a href="../index.html">COCINA CREATIVA</a>
+            </div>
+            <ul class="menu-items">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="recetas.html">Recetas</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="perfil.html">Mi Perfil</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="my-recipes-container">
+        <div class="page-header">
+            <h1><i class="fas fa-book-open"></i> Mis Recetas</h1>
+            <p>Gestiona todas tus creaciones culinarias</p>
+            <button class="add-recipe-btn" onclick="window.location.href='nueva-receta.html'">
+                <i class="fas fa-plus"></i> Nueva Receta
+            </button>
+        </div>
+
+        <div class="recipes-stats">
+            <div class="stat-card">
+                <i class="fas fa-utensils"></i>
+                <h3>Total Recetas</h3>
+                <span id="total-recipes">0</span>
+            </div>
+            <div class="stat-card">
+                <i class="fas fa-star"></i>
+                <h3>Mejor Valorada</h3>
+                <span id="best-rated">-</span>
+            </div>
+            <div class="stat-card">
+                <i class="fas fa-clock"></i>
+                <h3>Última Creación</h3>
+                <span id="latest-recipe">-</span>
+            </div>
+        </div>
+
+        <div class="recipes-filters">
+            <div class="search-bar">
+                <input type="text" id="search-recipe" placeholder="Buscar en mis recetas...">
+                <i class="fas fa-search"></i>
+            </div>
+            <div class="filter-options">
+                <select id="category-filter">
+                    <option value="">Todas las categorías</option>
+                </select>
+                <select id="difficulty-filter">
+                    <option value="">Todas las dificultades</option>
+                    <option value="Fácil">Fácil</option>
+                    <option value="Intermedia">Intermedia</option>
+                    <option value="Difícil">Difícil</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="recipes-grid">
+            <!-- Las recetas se cargarán dinámicamente -->
+        </div>
+    </main>
+
+    <script src="../js/auth/authService.js"></script>
+    <script src="../js/mis-recetas.js"></script>
+</body>
+</html> 
